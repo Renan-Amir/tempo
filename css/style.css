@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/tempo.jpg.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  background: black;
+  opacity: 0.8;
+  border-radius: 30px;
+  padding: 25px;
+  width: 95%;
+  max-width: 450px;
+}
+.input-city {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: calc(100% - 100px);
+}
+.button-search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+.img-search {
+  width: 25px;
+}
+.container2 {
+  margin-top: 20px;
+}
+.city {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+.tempMax {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+.tempMin {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+.container3 {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-top: 20px;
+}
+.forecast {
+  color: white;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+.moisture {
+  color: white;
+  margin-top: 20px;
+}

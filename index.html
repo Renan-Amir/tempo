@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Prvisão do Tempo</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/func.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <input class="input-city" placeholder="Digite o nome da Cidade" />
+      <button class="button-search" onclick="clickBt()">
+        <img
+          class="img-search"
+          alt="search"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+        />
+      </button>
+      <div class="container2">
+        <h2 class="city">Tempo em Guarulhos</h2>
+        <p class="tempMax">Maxima 21°C</p>
+        <p class="tempMin">Minima 21°C</p>
+        <div class="container3">
+          <img
+            class="img-clouds"
+            alt="icone-ifo-tempo"
+            src="https://openweathermap.org/img/wn/04n.png"
+          />
+          <p class="forecast">Nublado</p>
+        </div>
+        <p class="moisture">Umidade: 76%</p>
+      </div>
+    </div>
+  </body>
+</html>
